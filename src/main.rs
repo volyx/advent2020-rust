@@ -3,6 +3,9 @@ mod advent2;
 mod advent3;
 mod advent4;
 mod advent5;
+mod advent6;
+mod advent7;
+mod advent8;
 
 
 fn main() {
@@ -10,6 +13,9 @@ fn main() {
     // advent2::solution();
     // advent3::solution();
     // advent4::solution();
-    advent5::solution();
+    // advent5::solution();
+    // advent6::solution();
+    // advent7::solution();
+    advent8::solution();
 }
 

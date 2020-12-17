@@ -1,6 +1,5 @@
 use std::fs::File;
 use std::io::{prelude::*, BufReader};
-use std::ops::Deref;
 
 pub fn solution() {
     let file = File::open("advent5.txt").unwrap();
@@ -19,8 +18,6 @@ pub fn solution() {
         let mut col_mid = 0;
 
         for c in raw_line.chars() {
-            // println!("row_low = {:?}, row_high = {:?}", row_low, row_high);
-            // println!("col_low = {:?}, col_high = {:?}", col_low, col_high);
             row_mid = row_low + (row_high  - row_low) / 2;
             col_mid = col_low + (col_high  - col_low) / 2;
             match c {
