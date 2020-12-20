@@ -1,10 +1,5 @@
 use std::fs::File;
 use std::io::{prelude::*, BufReader};
-use std::ops::{Deref, Add, AddAssign};
-use std::borrow::Cow;
-use std::rc::Rc;
-use std::cell::Cell;
-use std::fmt;
 use std::collections::HashSet;
 // 1766
 pub fn solution() {
